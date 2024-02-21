@@ -42,7 +42,7 @@ const personalMovieDB = {
     movies: {},
     actors: {},
     genres: [],
-    privat: true
+    privat: false
 };
 
 function rememberMyFilms () {
