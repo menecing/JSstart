@@ -1,5 +1,6 @@
 "use strict"
 //Переменные и строгий режим
+//variable - переменная
 
 let number = 5; // присвоили переменной number значение 5
 const leftBorderWidtth = 1; // второй вариант переменной

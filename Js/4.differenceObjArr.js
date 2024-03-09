@@ -1,5 +1,6 @@
 "use strict"
 //Разница между объектами и массивами
+//difference - разница
 
 const arr = ['a', 'b', 'c'];
 const arrObj = {
