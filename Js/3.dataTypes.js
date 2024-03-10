@@ -1,5 +1,6 @@
 "use strict"
 //Классификация типов данных
+//data - данные, types - типы
 
 let number = 5.6;
 console.log (4/0);
