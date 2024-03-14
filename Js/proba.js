@@ -49,3 +49,37 @@ while (i<=16) {
     console.log (i);
     i++;
 };
+
+let arr = [];
+
+for (let i=5;i<=10;i++) {
+    arr [i-5] = i;
+}
+console.log (arr)
+
+const options = {
+    name: 'test',
+    width: 1024,
+    heigth: 1024,
+    colors: {
+        border: 'black',
+        bg: 'red'
+    },
+    makeTest: function () {
+        console.log ('Test');
+    }
+};
+let counter = 0;
+for (let key in options) { //перебор свойств объекта с выводом ключа и его значения
+    if (typeof (options [key]) === 'object') {
+        for (let i in options [key]) {
+        console.log (`Свойство ${i} имеет значение ${options [key][i]}`);
+        counter++;
+        }
+    } else {
+    console.log (`Свойство ${key} имеет значение ${options [key]}`);
+    counter++;
+    }
+};
+
+console.log (counter)
