@@ -18,9 +18,9 @@ if (num <49) {
 
 (num === 50) ? console.log ("Ok!") : console.log ("Error")
 
-const num = 50;
+const numSw = 50;
 
-switch (num) {
+switch (numSw) {
     case 49: 
         console.log ("Неверно");
         break;

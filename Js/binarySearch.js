@@ -30,8 +30,8 @@ console.log(`SecondWay: ${end - start}ms`);
 
 //Обычный поиск
 
-const arr = [1,3,5,7,9,11,13,15,17,18,20,23,25,27,29,31,35];
-const start= new Date().getTime();
+const arr2 = [1,3,5,7,9,11,13,15,17,18,20,23,25,27,29,31,35];
+const start2= new Date().getTime();
 console.log (arr.indexOf(29));
-const end = new Date().getTime();
+const end2 = new Date().getTime();
 console.log(`SecondWay: ${end - start}ms`);
